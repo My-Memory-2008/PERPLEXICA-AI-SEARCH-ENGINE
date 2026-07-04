@@ -1,0 +1,5 @@
+{
+  "name": "Local Unrestricted Search Engine",
+  "image": "://microsoft.com",
+  "postStartCommand": "bash start.sh"
+}
