@@ -1,7 +1,6 @@
 [API]
 PORT = 3001
-SIMULATE_STREAMS = false
-OLLAMA = "http://127.0.0.1:11434"
+OLLAMA = "http://docker.internal"
 
 [UI]
 PORT = 3000
