@@ -1,9 +1,0 @@
-{
-  "name": "Unrestricted Search Engine",
-  "image": "://microsoft.com",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-    "ghcr.io/pascalgn/devcontainer-features/ollama:1": {}
-  },
-  "postCreateCommand": "ollama serve & sleep 5 && ollama pull nomic-embed-text && ollama pull qwen2.5:1.5b && git clone https://github.com framework && cp config.toml framework/config.toml && cd framework && docker compose up -d"
-}
