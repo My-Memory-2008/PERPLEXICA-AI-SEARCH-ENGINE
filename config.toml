@@ -1,6 +1,0 @@
-[API]
-PORT = 3001
-OLLAMA = "http://docker.internal"
-
-[UI]
-PORT = 3000
