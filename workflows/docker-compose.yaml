@@ -16,3 +16,7 @@ services:
 networks:
   perplexica-network:
     driver: bridge
+
+volumes:
+  - ./custom_ui.html:/home/perplexica/app/public/index.html
+
